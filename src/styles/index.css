@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,59 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo {
+    background-color: rgb(229, 175, 14);
+    border-radius: 10px;
+    width: 150px;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    border: black solid 2px;
+    box-shadow: 0 0 20px black;
+}
+
+.red {
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: black solid 2px;
+}
+.yellow {
+    background: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: black solid 2px;
+}
+.green {
+    background: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: black solid 2px;
+}
+
+.destello {
+    box-shadow: 0 0 20px rgb(225, 232, 228);
+}
+
+body {
+    background-image: url(https://ciudadesquecaminan.org/wp-content/uploads/2023/09/Callegrafia-foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.palo {
+    width: 20px;
+    height: 100px;
+    background-color: rgb(229, 175, 14);
+    border: black solid 2px;
+    margin: auto;
+    box-shadow: 0 0 20px black;
+}
+
+.btn {
+    margin: auto;
+}

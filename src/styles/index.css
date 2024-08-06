@@ -13,9 +13,10 @@
     background-color: rgb(229, 175, 14);
     border-radius: 10px;
     width: 150px;
-    height: 400px;
+    height: 100%;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
     border: black solid 2px;
     box-shadow: 0 0 20px black;
@@ -43,6 +44,14 @@
     border: black solid 2px;
 }
 
+.purple {
+    background: rgb(79, 3, 60);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: black solid 2px;
+}
+
 .destello {
     box-shadow: 0 0 20px rgb(225, 232, 228);
 }
@@ -64,8 +73,10 @@ body {
 
 .boton {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .btn {
-    box-shadow: 0 0 20px black;
+    box-shadow: 2px 0 8px black;
+    margin: 10px;
 }
